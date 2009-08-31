@@ -1,0 +1,29 @@
+RoutesCov
+=========
+
+A rails plugin which give you controller#action call base coverage against routes.
+
+Install
+=======
+ $ script/plugin install git://github.com/hiroshi/routes_cov.git
+
+Usage
+=======
+ $ rake test:functionals
+ ....
+ Finished in 13.932317 seconds.
+
+ 121 tests, 307 assertions, 0 failures, 0 errors
+ 
+ There are unpeformed actions here:
+ groups#index
+ groups#show
+ users#member
+ ...
+
+Todo
+====
+I'v released the first version ot the plugin hastily.
+Just worked with a project like above usage example.
+There is too many thigs what to be done...
+First of all, write todo.
