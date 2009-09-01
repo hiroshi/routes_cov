@@ -1,4 +1,5 @@
 module RoutesCov
+  VERSION = "0.2"
   @@only = ["test:functionals"] # FIXME: to be customizable
   LOG_PATH = Pathname.new(Rails.root).join("tmp","routes_cov") # Rials.root is a String in Rails 2.2.2....
 
