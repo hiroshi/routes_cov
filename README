@@ -15,7 +15,7 @@ Usage
 
  121 tests, 307 assertions, 0 failures, 0 errors
  
- There are unpeformed actions here:
+ There are unperformed actions here:
  groups#index
  groups#show
  users#member
