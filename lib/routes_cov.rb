@@ -29,9 +29,9 @@ module RoutesCov
       end.uniq
       unperformed = routed - performed
       if unperformed.empty?
-        puts "\nRoutesCov: Congrats! There is no unpeformed action."
+        puts "\nRoutesCov: Congrats! There is no unperformed action."
       else
-        puts "\nRoutesCov: There are unpeformed actions here:"
+        puts "\nRoutesCov: There are unperformed actions here:"
         unperformed.each{|e| puts e }
       end
     end
