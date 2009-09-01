@@ -26,7 +26,7 @@ module RoutesCov
       LOG_PATH.unlink
       routed = ActionController::Routing::Routes.routes.map do |route|
         "#{route.requirements[:controller]}##{route.requirements[:action]}"
-      end
+      end.uniq
       unperformed = routed - performed
       if unperformed.empty?
         puts "\nRoutesCov: Congrats! There is no unpeformed action."
